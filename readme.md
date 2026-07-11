@@ -1,5 +1,7 @@
 # Awesome GCP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Awesome GCP banner](media/banner.png)
+
 > A curated list of awesome tools, libraries, and resources for [Google Cloud Platform](https://cloud.google.com).
 
 Google Cloud Platform (GCP) is a suite of cloud computing services running on the same infrastructure that Google uses internally. This list gathers the best official tooling, community projects, and learning material to help engineers build, secure, and operate workloads on Google Cloud.
