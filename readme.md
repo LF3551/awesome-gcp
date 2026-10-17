@@ -107,6 +107,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [GCP Compute Selector](https://www.alekseialeinikov.com/en/tools/compute-selector) - Interactive tool that recommends Cloud Run vs GKE vs Cloud Functions vs Compute Engine for a workload.
 - [GCP Database Selector](https://www.alekseialeinikov.com/en/tools/database-selector) - Interactive tool for choosing between Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable, BigQuery, and Memorystore.
 - [GCP IAM Policy Checker](https://www.alekseialeinikov.com/en/tools/iam-checker) - Pastes a GCP IAM policy and returns least-privilege findings such as public access and overly broad roles.
+- [Cron Expression Translator](https://www.alekseialeinikov.com/en/tools/cron-translator) - Explains a cron expression and converts it between Google Cloud Scheduler, Kubernetes CronJob, Linux crontab, GitHub Actions, AWS EventBridge, Quartz, Spring and Azure Functions.
 - [GCPing](https://gcping.com) - Web tool that measures your latency to every Google Cloud region.
 - [GCP instances reference](https://gcpinstances.doit.com) - Searchable reference of Compute Engine machine types and pricing.
 
