@@ -17,14 +17,21 @@ body:
       options:
         - Official Tools & SDKs
         - Infrastructure as Code
+        - Serverless
         - Kubernetes & GKE
+        - Networking
+        - Databases & Storage
+        - Data & AI
         - Security & IAM
         - Observability
-        - Data & AI
+        - CI/CD & DevOps
+        - Local Development & Testing
         - Cost & FinOps
         - Architecture & Decision Tools
+        - Samples & Templates
         - Learning & Certification
         - Community & Reference
+        - Curated Lists
         - Blogs & Newsletters
     validations:
       required: true
