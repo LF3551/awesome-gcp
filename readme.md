@@ -57,6 +57,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [kubectx + kubens](https://github.com/ahmetb/kubectx) - Utilities for fast switching between Kubernetes contexts and namespaces.
 - [k9s](https://github.com/derailed/k9s) - Terminal UI for interacting with and observing Kubernetes clusters.
 - [GKE Autopilot vs Standard in 2026](https://www.alekseialeinikov.com/en/blog/topics/cloud/gke-autopilot-vs-standard-2026) - Compares node ownership, billing models and Autopilot limitations, with a decision guide for platform teams.
+- [GKE Gateway API vs Ingress](https://www.alekseialeinikov.com/en/blog/topics/cloud/gke-gateway-api-vs-ingress-2026) - Explains GKE GatewayClasses, the proxy-only subnet for regional clusters and when to replace self-hosted nginx.
 
 ## Security & IAM
 
