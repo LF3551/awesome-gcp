@@ -112,6 +112,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [Cron Expression Translator](https://www.alekseialeinikov.com/en/tools/cron-translator) - Explains a cron expression and converts it between Google Cloud Scheduler, Kubernetes CronJob, Linux crontab, GitHub Actions, AWS EventBridge, Quartz, Spring and Azure Functions.
 - [GCPing](https://gcping.com) - Web tool that measures your latency to every Google Cloud region.
 - [GCP instances reference](https://gcpinstances.doit.com) - Searchable reference of Compute Engine machine types and pricing.
+- [App Engine vs Cloud Run](https://www.alekseialeinikov.com/en/blog/topics/cloud/app-engine-vs-cloud-run-2026) - Cost comparison of always-on Cloud Run and App Engine flexible, with migration pitfalls.
 
 ## Learning & Certification
 
