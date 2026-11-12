@@ -93,6 +93,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [Vertex AI SDK for Python](https://cloud.google.com/vertex-ai/docs/python-sdk/use-vertex-ai-python-sdk) - Python SDK for programmatically using Vertex AI services.
 - [Looker Studio](https://cloud.google.com/looker-studio) - Free tool for building interactive dashboards and reports.
 - [Datastream](https://cloud.google.com/datastream/docs) - Serverless change data capture and replication service.
+- [Google ADK 2.x: Building Production AI Agents](https://www.alekseialeinikov.com/en/blog/topics/cloud/google-adk-build-production-ai-agents-2026) - Walkthrough of building, evaluating and deploying agents with Agent Development Kit 2.x, including upgrade changes from 1.x.
 
 ## Cost & FinOps
 
