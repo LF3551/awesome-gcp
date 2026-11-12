@@ -102,6 +102,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [Recommender](https://cloud.google.com/recommender/docs) - Service that surfaces recommendations to optimize cost, security, and performance.
 - [Active Assist](https://cloud.google.com/solutions/active-assist) - Portfolio of tools that use data and ML to reduce cost and improve operations.
 - [BigQuery Billing Export](https://cloud.google.com/billing/docs/how-to/export-data-bigquery) - Guide for exporting detailed Cloud Billing data to BigQuery for analysis.
+- [The Cloud Bill You Did Not Estimate](https://www.alekseialeinikov.com/en/blog/topics/cloud/cloud-cost-optimization-2026-aws-vs-gcp-vs-azure) - Costs egress, Cloud NAT, cross-zone traffic and the GKE control plane fee from Google Cloud pricing docs, compared with AWS and Azure.
 
 ## Architecture & Decision Tools
 
