@@ -56,6 +56,7 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/) - Command-line tool for running commands against Kubernetes clusters.
 - [kubectx + kubens](https://github.com/ahmetb/kubectx) - Utilities for fast switching between Kubernetes contexts and namespaces.
 - [k9s](https://github.com/derailed/k9s) - Terminal UI for interacting with and observing Kubernetes clusters.
+- [GKE Autopilot vs Standard in 2026](https://www.alekseialeinikov.com/en/blog/topics/cloud/gke-autopilot-vs-standard-2026) - Compares node ownership, billing models and Autopilot limitations, with a decision guide for platform teams.
 
 ## Security & IAM
 
