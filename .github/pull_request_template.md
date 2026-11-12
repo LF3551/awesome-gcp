@@ -1,20 +1,16 @@
-<!--
-Thanks for contributing to Awesome GCP!
-Please make sure your pull request follows the contribution guidelines.
--->
+## Resource
 
-**One resource per pull request** — please open separate PRs for multiple additions.
+Link:
 
-### Checklist
+What it does (one sentence):
 
-- [ ] I have read the [contribution guidelines](../contributing.md).
-- [ ] This pull request adds **one** resource.
-- [ ] The entry uses the format `- [Name](link) - Description.` (ends with a period).
-- [ ] The description is concise and neutral (no marketing language).
-- [ ] The resource is useful and, if a tool/project, actively maintained.
-- [ ] I added it to the correct category (and updated the Table of Contents if it's a new section).
-- [ ] No trailing whitespace.
+Why it is useful for Google Cloud users:
 
-### Why is this awesome?
+## Checklist
 
-<!-- Briefly explain why this resource deserves a spot on the list. -->
+- [ ] I added exactly one line to `readme.md`, at the bottom of the right category
+- [ ] The line uses the format `- [Name](https://link) - Description.`
+- [ ] Plain `https://` link to official docs or the project's own repository, no tracking parameters
+- [ ] Description starts with a capital letter, ends with a period and has no promotional wording
+- [ ] The resource is useful and, if it is a tool or project, actively maintained
+- [ ] If I built or maintain the resource, I say so here

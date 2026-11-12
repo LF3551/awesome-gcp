@@ -21,7 +21,6 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [Learning & Certification](#learning--certification)
 - [Community & Reference](#community--reference)
 - [Blogs & Newsletters](#blogs--newsletters)
-- [Contributing](#contributing)
 
 ## Official Tools & SDKs
 
@@ -137,10 +136,4 @@ The original [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](contributing.md) first. In short: one link per pull request, keep descriptions concise and neutral, and make sure the resource is genuinely useful and actively maintained.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+Contributions are welcome! Please read the [contribution guidelines](contributing.md) first. In short: one link per pull request, keep descriptions concise and neutral, and make sure the resource is genuinely useful and actively maintained. Pull requests that pass the automated check are merged automatically.

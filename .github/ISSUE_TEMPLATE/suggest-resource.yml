@@ -1,0 +1,45 @@
+name: Suggest a resource
+description: Suggest a tool, library or resource for Google Cloud
+title: "Add: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: Official documentation or the project's own repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Official Tools & SDKs
+        - Infrastructure as Code
+        - Kubernetes & GKE
+        - Security & IAM
+        - Observability
+        - Data & AI
+        - Cost & FinOps
+        - Architecture & Decision Tools
+        - Learning & Certification
+        - Community & Reference
+        - Blogs & Newsletters
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What does it do?
+      description: One sentence, factual, without marketing wording
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: The resource is useful for Google Cloud and, if it is a tool or project, actively maintained
+          required: true
+        - label: I built or maintain this resource (tick only if true)

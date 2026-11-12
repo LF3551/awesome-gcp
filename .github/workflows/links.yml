@@ -1,0 +1,51 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-concurrency 8 --accept 200,201,202,204,301,302,303,307,308,403,429 --exclude "awesome.re" readme.md contributing.md
+          fail: ${{ github.event_name == 'push' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # The weekly run keeps one open issue up to date instead of opening a new one every week.
+      - name: Report broken links
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          title="Broken links in the list"
+          issue=$(gh issue list --repo "$REPO" --state open --label maintenance --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ "$EXIT_CODE" = "0" ]; then
+            if [ -n "$issue" ]; then
+              gh issue close "$issue" --repo "$REPO" --comment "All links pass the weekly check again."
+            fi
+            exit 0
+          fi
+          gh label create maintenance --repo "$REPO" --color FBCA04 --description "Upkeep of existing entries" --force
+          if [ -n "$issue" ]; then
+            gh issue edit "$issue" --repo "$REPO" --body-file lychee/out.md
+          else
+            gh issue create --repo "$REPO" --title "$title" --label maintenance --body-file lychee/out.md
+          fi
