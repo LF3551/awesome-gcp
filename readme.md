@@ -242,6 +242,7 @@ The official [GoogleCloudPlatform/awesome-google-cloud](https://github.com/Googl
 - [Google Cloud Free Program](https://cloud.google.com/free) - Trial credit and always-free usage limits for new Google Cloud accounts.
 - [Google Codelabs](https://codelabs.developers.google.com/) - Guided hands-on tutorials from Google, including many for Google Cloud products.
 - [Google SRE books](https://sre.google/books/) - Free online editions of the Site Reliability Engineering books written by Google engineers.
+- [Google Cloud certification path selector](https://certquestions.app/tools/which-google-cloud-certification/) - Free role-based study path suggestions using experience and learning goals, with methodology and links to exam guides.
 
 ## Community & Reference
 
